@@ -27,4 +27,4 @@ jobs:
         run: |
           docker build -t final-test-api .
           docker tag final-test-api:latest 529088293938.dkr.ecr.us-east-1.amazonaws.com/final-test-api:latest
-          docker push 529088293938.dkr.ecr.us-east-1.amazonaws.com/final-test-api:latest
+          docker push 52908829393.dkr.ecr.us-east-1.amazonaws.com/final-test-api:latest
